@@ -1,0 +1,65 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  height: 100vh;
+  margin: 0;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.left {
+  height: 700px;
+  width: 430px;
+  background-image: url(/public/img/home-phones.png);
+  background-repeat: no-repeat;
+}
+
+.imege {
+  position: relative;
+  top: 27px;
+  left: 157px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-items: stretch;
+  justify-content: center;
+  width: 350px;
+  background-color: white;
+  border: 1px solid rgb(219, 219, 219);
+  font-family: -apple-system;
+  padding: 40px;
+  margin: 20px;
+}
+
+.logo-instagram {
+  padding: 0px 70px 30px 70px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid rgb(219, 219, 219);
+  margin-top: 10px;
+}
+
+.button-submit {
+  background-color: rgba(0, 149, 246, 0.3);
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
