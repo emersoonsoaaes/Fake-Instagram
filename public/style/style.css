@@ -7,59 +7,169 @@ body {
   background-color: #fafafa;
   height: 100vh;
   margin: 0;
+  height: 100%;
 }
-.title {
+a {
+  text-decoration: none;
+}
+.container {
+  width: 700px;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  column-gap: 1.25rem;
+  margin: 32px 344px 0px;
+  padding: 0px 0px 32px;
+}
+
+.pitch {
+  height: 618px;
+  background-image: url("/public/img/home-phones.png");
+  background-repeat: no-repeat;
+  margin-left: -100px;
+}
+
+.image-phone {
+  margin: 25px 0px 0px 155px;
+}
+.logo-instagram {
+  width: 175px;
+  margin-bottom: 25px;
+}
+.form form {
+  text-align: center;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: white;
+  padding: 42px 47px 15px;
+  margin-top: 13px;
+}
+input {
+  height: 2.25rem;
+  font-size: 0.875rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  color: #262626;
+  margin-bottom: 0.25rem;
+  padding: 0 0.5rem;
+}
+
+button {
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 9px;
+  height: 32px;
+  width: 100%;
+  background-color: #27c4f5;
+  color: white;
+  margin-top: 0.75rem;
+}
+.separator {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.border {
+  background-color: #8e8e8e;
+  height: 1px;
+  width: 120px;
+}
+
+.Or {
+  font-weight: 600;
+  color: #8e8e8e;
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 4px;
+}
+
+.login-facebook {
+  color: #385185;
+  font-weight: 600;
+  display: inline-block;
+  margin: 12px 0px 20px 3px;
+}
+
+.logo-facebook {
+  margin-right: 8px;
+  margin-top: 14px;
+  position: relative;
+  top: 3px;
+  height: 17px;
+  width: 16px;
+  background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+  background-repeat: no-repeat;
+  background-position: -414px -259px;
+  transform: scale(1.1);
+}
+
+.forgot-password {
+  color: #385185;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+.signup {
+  text-align: center;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: white;
+  padding: 5px 0px;
+  margin: 10px 0px 10px;
+  margin-bottom: 20px;
+}
+
+.signup a {
+  font-weight: 600;
+  color: #0095f6;
+}
+
+.get-app p {
+  font-size: 14px;
+}
+
+.text-app {
+  border: 0;
+  color: rgb(var(--ig-primary-text));
+  font: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 10px 20px 10px 20px;
+  padding: 0;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.App-store {
+  width: 136px;
+}
+.Microsoft-store {
+  width: 113px;
+}
+
+.get-apps {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
   justify-content: center;
-  align-content: center;
+  margin: 10px 0 10px 0;
+  gap: 8px;
 }
 
-.left {
-  height: 700px;
-  width: 430px;
-  background-image: url(/public/img/home-phones.png);
-  background-repeat: no-repeat;
-}
-
-.imege {
-  position: relative;
-  top: 27px;
-  left: 157px;
-}
-
-.logo {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  align-items: stretch;
-  justify-content: center;
-  width: 350px;
-  background-color: white;
-  border: 1px solid rgb(219, 219, 219);
-  font-family: -apple-system;
-  padding: 40px;
-  margin: 20px;
-}
-
-.logo-instagram {
-  padding: 0px 70px 30px 70px;
-}
-
-input {
-  padding: 10px;
-  border: 1px solid rgb(219, 219, 219);
-  margin-top: 10px;
-}
-
-.button-submit {
-  background-color: rgba(0, 149, 246, 0.3);
+footer {
   text-align: center;
-  color: white;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 5px;
+  width: 680px;
+  margin: 0 auto;
+}
+
+.links {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #8e8e8e;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0px 0px 14px 10px;
 }

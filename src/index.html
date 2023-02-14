@@ -4,23 +4,89 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../public/style/style.css" />
+    <link rel="stylesheet" href="/public/style/style.css" />
     <title>Fake instagram | EmersonProg</title>
   </head>
   <body>
-    <div class="title">
-      <div class="left">
-        <img src="../public/img/screenshot1.png" class="imege" alt="" />
-      </div>
-      <div class="right">
-        <div class="logo">
-          <img src="/public/img/logo-instagram.png" class="logo-instagram" alt="" />
-          <input type="text" placeholder="Telefone, nome de usuário ou email" />
-          <input type="password" placeholder="senha" />
-          <div class="button-submit">
-            Entrar
+    <section class="container">
+      <div class="pitch">
+        <div>
+          <img class="image-phone" src="/public/img/screenshot1.png" alt="" />
         </div>
       </div>
-    </div>
+
+      <div class="form">
+        <form>
+          <img
+            src="/public/img/logo-instagram.png"
+            class="logo-instagram"
+            alt="instagram"
+          />
+          <input
+            type="text"
+            name="uname"
+            placeholder="Telefone, nome de usuário ou email"
+          />
+          <input type="password" name="password" placeholder="senha" />
+
+          <button type="button">Entrar</button>
+
+          <div class="separator">
+            <div class="border"></div>
+            <div class="Or">OU</div>
+            <div class="border"></div>
+          </div>
+
+          <a href="/" class="login-facebook"
+            ><img class="logo-facebook" src="" alt="" /> Entrar com o
+            Facebook</a
+          >
+          <a href="/" class="forgot-password">Esqueceu a senha?</a>
+        </form>
+
+        <div class="signup">
+          <p>Não tem uma connta? <a href="/">Cadastre-se</a></p>
+        </div>
+        <div class="get-app">
+          <div class="text-app">Obtenha o aplicativo.</div>
+          <div class="get-apps">
+            <a href="/">
+              <img
+                class="App-store"
+                src="/public/img/Playstore.png"
+                alt="App Store"
+              />
+            </a>
+            <a href="/">
+              <img
+                class="Microsoft-store"
+                src="/public/img/Microsoft.png"
+                alt="Microsoft Store"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav class="links">
+        <a href="/">Meta</a>
+        <a href="/">Sobre</a>
+        <a href="/">Blog</a>
+        <a href="/">Carreiras</a>
+        <a href="/">Ajuda</a>
+        <a href="/">API</a>
+        <a href="/">Privacidade</a>
+        <a href="/">Termos</a>
+        <a href="/">Principais contas</a>
+        <a href="/">Localizações</a>
+        <a href="/">Instagram Lite</a>
+        <a href="/">Carregamento de contatos e não usuários</a>
+      </nav>
+      <div class="copy">
+        <span>Português (Brasil)</span>
+        <span>© 2023 Instagram from Meta</span>
+      </div>
+    </footer>
   </body>
 </html>
